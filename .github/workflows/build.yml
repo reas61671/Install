@@ -19,7 +19,7 @@ jobs:
       - name: Build APK
         run: |
           # Unzip project
-          unzip -q BASE_METALZ.zip
+          unzip -q BASE_METALZ .zip
           # Cari folder hasil unzip (biasanya BASE_METALZ)
           cd BASE_METALZ
           # Install dependencies
